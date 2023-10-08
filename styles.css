@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #020b1a 0%, #6a0572 100%);
+    
+    color: #e0e0e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.intro h2{
+    font-size: 2.5rem ;
+}
+.mission{
+    display: flex;
+    background-color: red;
+}
+.mission-text h2 {
+    color: #f5d063;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.mission-text p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #020b1a;
+}
+
+header h1 {
+    color: #f5d063;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+}
+
+main {
+    text-align: center;
+    padding: 60px 20px 80px;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ab83a1; /* Nebula Pink for subheadings */
+}
+
+.intro p {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    padding: 0 10px;
+}
+
+button {
+    background-color: #f5d063; /* Starlight Yellow for buttons */
+    color: #020b1a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0e0e2; /* Comet Tail for button hover state */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #020b1a;
+    font-size: 14px;
+}
+
+/* Responsive Design for Small Screens */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    .intro h2 {
+        font-size: 1.5em;
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
